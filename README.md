@@ -47,7 +47,11 @@ $ nvm alias default 10.18
 $ npm install --global --production windows-build-tools 
 ~~~
 ## Run Locally
+1.Clone the repository in the system
+
+2.Open the terminal and run the following commands to run the Program.
 ~~~
-npm install
-node index
+npm install 
+node index 
 ~~~
+NOTE: This is a console program not a website.
