@@ -21,7 +21,31 @@ The data store will also support the following non-functional requirements.
 3. A client process is allowed to access the data store using multiple threads, if it desires to. The data store must therefore be thread-safe.
 4. The client will bear as little memory costs as possible to use this data store, while deriving maximum performance with respect to response times for accessing the data store.
 
-
+## Requirements
+Install NVM
+~~~
+https://github.com/nvm-sh/nvm#installation-and-update
+To verify the NVM installation, run the following command.
+nvm --version 
+~~~
+Install Node 
+~~~
+1. To install Node using NVM, run the following command. 
+$ nvm install 10.18 
+~~~
+~~~
+2.To verify the Node installation, run the following command. 
+$ node --version 
+Note: On Windows, if the Node version is not displayed, you should run the nvm on command to enable nvm.
+~~~
+~~~
+3.To set the default Node version, run the following command: 
+$ nvm alias default 10.18 
+~~~
+~~~
+4. On Windows, to install the tools and configurations required to start using Node, use the following command. 
+$ npm install --global --production windows-build-tools 
+~~~
 ## Run Locally
 ~~~
 npm install
